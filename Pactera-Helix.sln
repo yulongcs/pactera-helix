@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{F347A85D-6FF5-4927-B5CF-54D81954E6A2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		scripts\applytransform.targets = scripts\applytransform.targets
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		LICENSE = LICENSE
+		package.json = package.json
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+		src\Project\NeoTrans\code\App_Config\Include\Project\z.NeoTrans.DevSettings.config = src\Project\NeoTrans\code\App_Config\Include\Project\z.NeoTrans.DevSettings.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{755F9E42-1707-4E1A-AE6D-3FD8A25118C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{D2CBE02E-6AA7-4343-9A01-891F971A17F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{9A8FD752-FF60-4789-8251-E1D8FF290F3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NeoTrans", "NeoTrans", "{81BF789D-FE48-4323-95F0-B24DFEF637C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.NeoTrans", "src\Project\NeoTrans\code\Sitecore.Project.NeoTrans.csproj", "{40840E7A-6624-400B-9418-45332287F7C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{4C8C033E-56D2-4692-85C8-A5D4AC07B3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{007CD5DC-0030-460D-91A3-3DDEA9AB472F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40840E7A-6624-400B-9418-45332287F7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40840E7A-6624-400B-9418-45332287F7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40840E7A-6624-400B-9418-45332287F7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40840E7A-6624-400B-9418-45332287F7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007CD5DC-0030-460D-91A3-3DDEA9AB472F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007CD5DC-0030-460D-91A3-3DDEA9AB472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007CD5DC-0030-460D-91A3-3DDEA9AB472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007CD5DC-0030-460D-91A3-3DDEA9AB472F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81BF789D-FE48-4323-95F0-B24DFEF637C9} = {9A8FD752-FF60-4789-8251-E1D8FF290F3F}
+		{40840E7A-6624-400B-9418-45332287F7C7} = {81BF789D-FE48-4323-95F0-B24DFEF637C9}
+		{4C8C033E-56D2-4692-85C8-A5D4AC07B3F4} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
+		{007CD5DC-0030-460D-91A3-3DDEA9AB472F} = {4C8C033E-56D2-4692-85C8-A5D4AC07B3F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B77D5F14-1F9D-4A17-A8DA-B14E965CBC3D}
+	EndGlobalSection
+EndGlobal
